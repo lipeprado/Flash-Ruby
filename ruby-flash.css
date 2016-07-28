@@ -1,0 +1,107 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-attribute   { color: #a5d296; } /* ATRIBUTOS HTML */
+span.cm-bracket     { color: #8283a7; } /*  </> */
+span.cm-tag         { color: #8283a7; } /* ELEMENTOS  */
+span.cm-string      { color: #D1B6E1; } /* NOMES DAS CLASSES E LINKS  */
+span.cm-comment     { color: #8EC0E4; }  /*  COMENTARIOS  */
+
+
+span.cm-qualifier   { color: #5CAB7D; } /* CLASSES NO CSS */
+span.cm-atom        { color: #a8dba8; } /* PROPRIEDADES DO CSS ( inline) */
+span.cm-property    { color: #A593E0; }  /* PROPRIEDADES CSS ( padding: )  */
+span.cm-number      { color: #a8dba8; } /* NUMEROS CSS */
+span.cm-variable    { color: #eb9f9f; } /* VARIAVEIS */
+span.cm-variable-3  { color: #eb9f9f; } /* PSEUDO ELEMENTOS (:hover :select) */
+span.cm-error       { color: #eb9f9f; } /*CROSS BROWSER TAGS ( -MOZ-USER-SELECT)*/
+span.cm-keyword     { color: #eb9f9f; } /*TAGS PRONTAS ( cores: red, blue.)*/
+span.cm-operator    { color: #cff0da ; } /*  ==  */
+span.cm-meta        { color: #eb9f9f; } /*WEBKIT CSS*/
+span.cm-def         { color: #DE6449; } /*@KEYFRAMES*/
+
+span.cm-variable-2  { color: #5CAB7D; } /*VARIAVEIS JS*/
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.8;
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 1rem;
+
+}
+
+.CodeMirror-scroll {
+    background: #262627;
+    color: #E9E9E9 ;
+
+}
+
+.CodeMirror-cursor {
+    border-left: 3px solid #C5E99B !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #C5E99B !important;
+    border-left: none !important;
+}
+
+/*SIDE BAR */
+.CodeMirror-gutters {
+    background: #262627;
+    border-right: 1px solid #262626;
+}
+
+.CodeMirror-linenumber {
+    color: #dadada;
+}
+
+.CodeMirror-selected {
+    background: #202020 !important;
+}
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: transparent !important;
+    border-bottom: 1px solid #E9E9E9 !important;
+    color: #A9BCD0 !important;
+}
+
+.CodeMirror-matchingtag {
+    background: transparent !important;
+    border-bottom: 1px solid #dadada !important;
+}
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+    color: #292929 !important;
+}
+
+.CodeMirror-activeline-background {
+    background: #292929 !important;
+}
+
+/*LINHA SELECIONADA*/
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #5CAB7D;
+    background-color: #262627;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+    color: #5CAB7D;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #5CAB7D;
+}
+
+#image-holder {
+    color: #5CAB7D;
+}
